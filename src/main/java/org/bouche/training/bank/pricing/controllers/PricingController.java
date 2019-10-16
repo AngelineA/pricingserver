@@ -31,8 +31,9 @@ public class PricingController {
 		
 	}
 
-	public String helloWorld{
-		return ("helloWorld")
+	@GetMapping("/hello/")
+	public String getHelloWorld(){
+		return "hello World";
 	}
 	
 	@PostMapping("/pricing")
