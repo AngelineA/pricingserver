@@ -28,6 +28,11 @@ public class PricingController {
 		
 		return pricingService.getPricingById(pricingId);
 		
+		
+	}
+
+	public String helloWorld{
+		return ("helloWorld")
 	}
 	
 	@PostMapping("/pricing")
